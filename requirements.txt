@@ -1,3 +1,0 @@
-mujoco>=3.1
-numpy
-matplotlib
