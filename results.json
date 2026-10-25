@@ -1,0 +1,110 @@
+{
+  "stop": [
+    {
+      "v_set": 0.3,
+      "t_trip": 2.5619999999999394,
+      "x_trip": 0.680388408986915,
+      "cause": "SENSOR FAULT",
+      "from_snap_mm": 70.52125564298262,
+      "stop_dist_mm": 52.670273153543555,
+      "response_s": 0.2779999999999694,
+      "final_gap_mm": 591.9413178595416,
+      "max_speed": 0.30950463952646595,
+      "floor_mu": 1.0,
+      "test": "sensor wire snaps at 2.5 s"
+    },
+    {
+      "v_set": 0.3,
+      "t_trip": 3.891999999999793,
+      "x_trip": 1.0760851875002073,
+      "cause": "OBSTACLE",
+      "from_snap_mm": null,
+      "stop_dist_mm": 52.670273152154,
+      "response_s": 0.2779999999999698,
+      "final_gap_mm": 196.24453934763864,
+      "max_speed": 0.30950463952646595,
+      "floor_mu": 1.0
+    },
+    {
+      "v_set": 0.2,
+      "t_trip": 5.5979999999996055,
+      "x_trip": 1.07559210282666,
+      "cause": "OBSTACLE",
+      "from_snap_mm": null,
+      "stop_dist_mm": 28.50284590453178,
+      "response_s": 0.26199999999997114,
+      "final_gap_mm": 220.90505126880845,
+      "max_speed": 0.21033146069100536,
+      "floor_mu": 1.0
+    },
+    {
+      "v_set": 0.3,
+      "t_trip": 3.891999999999793,
+      "x_trip": 1.0760591102617534,
+      "cause": "OBSTACLE",
+      "from_snap_mm": null,
+      "stop_dist_mm": 75.14376760152186,
+      "response_s": 0.4079999999999555,
+      "final_gap_mm": 173.7971221367247,
+      "max_speed": 0.30950463952632756,
+      "floor_mu": 0.1
+    }
+  ],
+  "grip": [
+    {
+      "squeeze_N": 4.0,
+      "slip_mm": 1.6129020982274533,
+      "align_mm": 6.367695857276923,
+      "touch_N": 3.999995981759679,
+      "box_lifted_mm": 97.08747286740116,
+      "result": "HOLDS",
+      "mu": 1.0,
+      "mass_kg": 0.5,
+      "N_needed": 2.4525
+    },
+    {
+      "squeeze_N": 4.0,
+      "slip_mm": 100.1035051447699,
+      "align_mm": 6.367695857276923,
+      "touch_N": 0.0,
+      "box_lifted_mm": 2.7755575615628914e-13,
+      "result": "SLIP",
+      "mu": 0.5,
+      "mass_kg": 0.5,
+      "N_needed": 4.905
+    },
+    {
+      "squeeze_N": 6.0,
+      "slip_mm": 1.488491242043949,
+      "align_mm": 6.367695857276923,
+      "touch_N": 5.999997933977806,
+      "box_lifted_mm": 97.21185904608947,
+      "result": "HOLDS",
+      "mu": 0.5,
+      "mass_kg": 0.5,
+      "N_needed": 4.905
+    },
+    {
+      "squeeze_N": 4.0,
+      "slip_mm": 2.4745215477454674,
+      "align_mm": 6.367695819486041,
+      "touch_N": 3.999980008720667,
+      "box_lifted_mm": 95.52344997842494,
+      "result": "HOLDS",
+      "mu": 1.0,
+      "mass_kg": 0.75,
+      "N_needed": 3.67875
+    },
+    {
+      "squeeze_N": 2.0,
+      "slip_mm": 100.10348361667695,
+      "align_mm": 6.367695857276923,
+      "touch_N": 0.0,
+      "box_lifted_mm": 2.498001805406602e-13,
+      "result": "SLIP",
+      "mu": 1.0,
+      "mass_kg": 0.5,
+      "N_needed": 2.4525
+    }
+  ]
+}
